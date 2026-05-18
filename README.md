@@ -16,7 +16,7 @@ Real-world data is often noisy and inconsistent. The data preparation pipeline c
    - Categorized race months into their respective weather seasons (`winter`, `spring`, `summer`, `fall`) using an optimized dictionary mapping approach.
 4. **Memory Optimization & Missing Values:** Dropped redundant features (`Athlete club`, `Athlete country`, etc.) to minimize RAM consumption and audited the dataset for missing data (`NaN/Null`).
 
-## 📊 Key Insights & Advanced Aggregations
+## Key Insights & Advanced Aggregations
 Using advanced Pandas method chaining (`groupby`, `agg`, `sort_values`, `query`), this project answers critical analytical questions:
 - **Age vs. Performance:** Identified which age groups achieved the highest average speed (`avg_speed`) in 50-mile races. To ensure statistical significance and eliminate outliers, groups with a sample size of fewer than 20 athletes were filtered out.
 - **Seasonal Distribution:** Analyzed runner turnouts and average speeds across different seasons to determine peak performance periods.
