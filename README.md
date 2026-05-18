@@ -4,7 +4,7 @@
 This project performs an end-to-end Exploratory Data Analysis (EDA) on a massive global dataset of Ultra Marathon races. The primary objective is to clean raw data, perform feature engineering, and uncover key behavioral and performance insights regarding athletes competing in the United States (`USA`) during the year `2020` for two major race distances: **50km** and **50 miles (50mi)**.
 
 ## Tech Stack
-- **Language:** Python (3.x)
+- **Language:** Python (3.14)
 - **Data Wrangling:** Pandas (Optimized memory management using `low_memory=False`, advanced `Method Chaining`, `Query`, and `Vectorized String Manipulation`)
 - **Data Visualization:** Seaborn, Matplotlib
 
